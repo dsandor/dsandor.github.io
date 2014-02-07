@@ -6,14 +6,16 @@
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.11/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.11/angular-sanitize.min.js"></script>
     <script src="app/js/controllers.js"></script>
 </head>
 <body ng-controller="BlogListCtrl">
 <h3>Placeholder {{ 'time' + '!'}}</h3>
 <ul>
     <li ng-repeat="item in items">
-        {{ item.title }}
-        <p>{{ item.pubDate }}</p>
+        <h2>{{ item.title }}</h2>
+        <h4>{{ item.pubDate }}</h4>
+        <div ng-bind-html="item.description"></div>
     </li>
 </ul>
 </body>

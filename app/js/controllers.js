@@ -1,7 +1,7 @@
 /**
  * Created by dsandor on 2/6/14.
  */
-var blogApp = angular.module('blogApp', []);
+var blogApp = angular.module('blogApp', ['ngSanitize']);
 
 
 blogApp.controller('BlogListCtrl', function($scope){
@@ -12,4 +12,6 @@ blogApp.controller('BlogListCtrl', function($scope){
     $scope.items = pipeOutput[0].value.items;
 
 });
+
+
 
