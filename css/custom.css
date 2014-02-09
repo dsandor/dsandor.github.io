@@ -26,7 +26,7 @@ a:hover {
 
 html,
 body {
-    background: url(images/chicago.JPG) no-repeat center center fixed;
+    background: url(images/chicago.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

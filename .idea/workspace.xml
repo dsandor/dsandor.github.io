@@ -4,8 +4,8 @@
     <list default="true" id="c6bcc3dc-47f5-4d36-8454-34aa13559949" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/chicago.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/custom.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mockup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dsandor.github.io.iws" />
@@ -42,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mockup.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mockup.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mockup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="22" selection-start="3184" selection-end="3184" vertical-scroll-proportion="0.52224827" vertical-offset="523" max-vertical-offset="1564">
+            <state line="45" column="0" selection-start="1580" selection-end="1580" vertical-scroll-proportion="-9.307693" vertical-offset="523" max-vertical-offset="1564">
               <folding />
             </state>
           </provider>
@@ -60,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="39" selection-start="1268" selection-end="1268" vertical-scroll-proportion="-19.615385" vertical-offset="714" max-vertical-offset="3145">
+            <state line="28" column="38" selection-start="371" selection-end="371" vertical-scroll-proportion="0.13725491" vertical-offset="357" max-vertical-offset="3145">
               <folding />
             </state>
           </provider>
@@ -103,8 +103,8 @@
         <option value="$PROJECT_DIR$/app/js/controllers.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/carousel.css" />
-        <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/mockup.html" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
       </list>
     </option>
   </component>
@@ -277,13 +277,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23928571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23928571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -387,16 +387,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/mockup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="39" selection-start="1268" selection-end="1268" vertical-scroll-proportion="-19.615385" vertical-offset="714" max-vertical-offset="3145">
+        <state line="45" column="0" selection-start="1580" selection-end="1580" vertical-scroll-proportion="-9.307693" vertical-offset="523" max-vertical-offset="1564">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mockup.html">
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="22" selection-start="3184" selection-end="3184" vertical-scroll-proportion="0.52224827" vertical-offset="523" max-vertical-offset="1564">
+        <state line="28" column="38" selection-start="371" selection-end="371" vertical-scroll-proportion="0.13725491" vertical-offset="357" max-vertical-offset="3145">
           <folding />
         </state>
       </provider>
