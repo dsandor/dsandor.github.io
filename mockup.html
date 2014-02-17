@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="blogApp">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,15 +16,19 @@
 
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.11/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.11/angular-sanitize.min.js"></script>
+    <script src="app/js/controllers.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
     <![endif]-->
 </head>
-<body>
+<body ng-controller="BlogListCtrl">
 
 <div class="site-wrapper">
 
@@ -45,29 +49,13 @@
 
 
 
-            <div class="inner cover">
+            <div class="inner cover"  ng-repeat="article in articles">
                 <div class="row opaque-dkblue-background-60">
                     <div class="col-md-12">
-                        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut adipiscing, mauris in laoreet semper, ante.</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu luctus leo, eu elementum metus. Phasellus ullamcorper, nisl at mattis hendrerit, enim mi aliquam sem, ut tincidunt elit risus id sem. Ut pharetra massa sed nunc vehicula bibendum. Maecenas molestie justo vitae eros imperdiet suscipit. Duis placerat lacus et dolor dapibus, fermentum eleifend diam dignissim. Nunc non accumsan risus, a auctor justo. Suspendisse blandit lectus sed mi consectetur viverra. Vivamus scelerisque tempus mollis. Vestibulum vestibulum nibh in porttitor pellentesque. Fusce ornare urna sit amet velit venenatis, vitae volutpat mauris tempor.
-
-                            Vestibulum congue malesuada massa, et sodales tellus sodales vitae. Nulla sit amet mi bibendum, gravida urna ac, dignissim sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum a sem semper, tempus nibh congue, varius justo. Ut quis pellentesque ante. Aliquam faucibus nec enim sed eleifend. Pellentesque laoreet magna sapien, quis interdum erat cursus eget. Vivamus lacinia consequat diam eget ultricies. Proin semper vulputate enim, quis dictum est lobortis sit amet.
-                        </p>
+                        <h2>{{article.Title}}</h2>
+                        <div>{{article.Content}}</div>
                     </div>
                 </div>
-
-                <div class="row opaque-dkblue-background-60">
-                    <div class="col-md-12">
-                        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut adipiscing, mauris in laoreet semper, ante.</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu luctus leo, eu elementum metus. Phasellus ullamcorper, nisl at mattis hendrerit, enim mi aliquam sem, ut tincidunt elit risus id sem. Ut pharetra massa sed nunc vehicula bibendum. Maecenas molestie justo vitae eros imperdiet suscipit. Duis placerat lacus et dolor dapibus, fermentum eleifend diam dignissim. Nunc non accumsan risus, a auctor justo. Suspendisse blandit lectus sed mi consectetur viverra. Vivamus scelerisque tempus mollis. Vestibulum vestibulum nibh in porttitor pellentesque. Fusce ornare urna sit amet velit venenatis, vitae volutpat mauris tempor.
-
-                            Vestibulum congue malesuada massa, et sodales tellus sodales vitae. Nulla sit amet mi bibendum, gravida urna ac, dignissim sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum a sem semper, tempus nibh congue, varius justo. Ut quis pellentesque ante. Aliquam faucibus nec enim sed eleifend. Pellentesque laoreet magna sapien, quis interdum erat cursus eget. Vivamus lacinia consequat diam eget ultricies. Proin semper vulputate enim, quis dictum est lobortis sit amet.
-                        </p>
-                    </div>
-                </div>
-
             </div>
 
             <div class="mastfoot mastfoot-height-fix">
