@@ -13,6 +13,12 @@ blogApp.controller('BlogListCtrl', function($scope, $http){
     $http.get('http://davidsandor.com/blogapi/api/Blog/GetRecentPosts?numberToFetch=5&truncateContent=true').success(function(data) {
         $scope.articles = data;
     });
+
+    $scope.more = function(article)
+    {
+      alert(article.Title);
+    };
+
 });
 
 
