@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="371f183d-086a-4c93-920f-9262999cb145" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/dsTagCloud.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jquery.tocify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.tocify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.tocify.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/dsTagCloud.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/dsTagCloud.js" afterPath="$PROJECT_DIR$/js/dsTagCloud.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup.html" afterPath="$PROJECT_DIR$/mockup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dsandor.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,10 +31,8 @@
       <file leaf-file-name="mockup.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mockup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="45" selection-start="2626" selection-end="2626" vertical-scroll-proportion="-24.192308" vertical-offset="561" max-vertical-offset="1428">
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="29" column="70" selection-start="1401" selection-end="1401" vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="1241">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -45,7 +40,7 @@
       <file leaf-file-name="dsTagCloud.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/dsTagCloud.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.47592387" vertical-offset="0" max-vertical-offset="893">
+            <state line="71" column="50" selection-start="2293" selection-end="2293" vertical-scroll-proportion="0.7577143" vertical-offset="510" max-vertical-offset="1547">
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -65,7 +60,16 @@
       <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="18" selection-start="1322" selection-end="1322" vertical-scroll-proportion="0.0" vertical-offset="740" max-vertical-offset="3434">
+            <state line="89" column="41" selection-start="1434" selection-end="1471" vertical-scroll-proportion="-15.461538" vertical-offset="1111" max-vertical-offset="3434">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dsTagCloud.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/dsTagCloud.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="17" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -101,12 +105,8 @@
       <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="69" selection-start="74649" selection-end="74703" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-              <folding>
-                <marker date="1392777088294" expanded="false" signature="12635:12789" placeholder="..." />
-                <marker date="1392777088294" expanded="false" signature="42202:42227" placeholder="..." />
-                <marker date="1392777088294" expanded="false" signature="42250:42254" placeholder="..." />
-              </folding>
+            <state line="12" column="69" selection-start="74649" selection-end="74703" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="527">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,16 +126,17 @@
       <list>
         <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/app/js/controllers.js" />
-        <option value="$PROJECT_DIR$/js/dsTagCloud.js" />
         <option value="$PROJECT_DIR$/mockup.html" />
+        <option value="$PROJECT_DIR$/css/dsTagCloud.css" />
+        <option value="$PROJECT_DIR$/js/dsTagCloud.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1678" />
+    <option name="height" value="1008" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -247,14 +248,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -265,15 +258,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -295,14 +296,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="1" y="1" width="1678" height="1008" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -336,9 +337,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mockup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="35" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
+        <state line="70" column="45" selection-start="2626" selection-end="2626" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/dsTagCloud.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="527">
           <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -380,21 +388,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="69" selection-start="74649" selection-end="74703" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="35" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.tocify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="17" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="16881">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="18" selection-start="1322" selection-end="1322" vertical-scroll-proportion="0.0" vertical-offset="740" max-vertical-offset="3434">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="99229">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="6001">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/carousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="12" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="2023">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="74887" selection-end="74887" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="527">
-          <folding>
-            <marker date="1392777088294" expanded="false" signature="12635:12789" placeholder="..." />
-            <marker date="1392777088294" expanded="false" signature="42202:42227" placeholder="..." />
-            <marker date="1392777088294" expanded="false" signature="42250:42254" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mockup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="56" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -436,11 +487,7 @@
     <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="74887" selection-end="74887" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="527">
-          <folding>
-            <marker date="1392777088294" expanded="false" signature="12635:12789" placeholder="..." />
-            <marker date="1392777088294" expanded="false" signature="42202:42227" placeholder="..." />
-            <marker date="1392777088294" expanded="false" signature="42250:42254" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -477,36 +524,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="18" selection-start="1322" selection-end="1322" vertical-scroll-proportion="0.0" vertical-offset="740" max-vertical-offset="3434">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="69" selection-start="74649" selection-end="74703" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding>
-            <marker date="1392777088294" expanded="false" signature="12635:12789" placeholder="..." />
-            <marker date="1392777088294" expanded="false" signature="42202:42227" placeholder="..." />
-            <marker date="1392777088294" expanded="false" signature="42250:42254" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mockup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="45" selection-start="2626" selection-end="2626" vertical-scroll-proportion="-24.192308" vertical-offset="561" max-vertical-offset="1428">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="29" column="70" selection-start="1401" selection-end="1401" vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="41" selection-start="1434" selection-end="1471" vertical-scroll-proportion="-15.461538" vertical-offset="1111" max-vertical-offset="3434">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/dsTagCloud.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="17" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/dsTagCloud.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.47592387" vertical-offset="0" max-vertical-offset="893">
+        <state line="71" column="50" selection-start="2293" selection-end="2293" vertical-scroll-proportion="0.7577143" vertical-offset="510" max-vertical-offset="1547">
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>

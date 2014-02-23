@@ -12,15 +12,14 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" />
-    <link rel="stylesheet" href="css/jquery.tocify.css" />
     <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/dsTagCloud.css" />
 
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.11/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.11/angular-sanitize.min.js"></script>
-    <script src="js/jquery.tocify.min.js"></script>
     <script src="app/js/controllers.js"></script>
     <script src="js/dsTagCloud.js"></script>
 
@@ -62,17 +61,7 @@
 
 <script>
 
-   $(function() {
-        $("#tocifyNav").tocify();
-    });
-
-    var tagCloud = $("#tocifyNav").appendTo("body").tagcloud();
-
-    //alert(tagCloud.tagcloud("getdataurl"));
-
-    //tagCloud.tagcloud("getdataurl", 123);
-
-
+    var tagCloud = $("#tocifyNav").tagcloud();
 
 </script>
 </body>
