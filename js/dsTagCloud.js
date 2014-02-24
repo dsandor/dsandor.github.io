@@ -46,10 +46,17 @@ $.widget("ds.tagcloud", {
 
                 // Find highest frequency.
                 var maxFreq = 0;
+                var nextMaxFreq = 0;
+
                 $.each(data, function(index, category) {
-                   if (category.Frequency > maxFreq) maxFreq = category.Frequency;
+                   if (category.Frequency > maxFreq)
+                   {
+                       nextMaxFreq = maxFreq;
+                       maxFreq = category.Frequency;
+                   }
                 });
 
+                maxFreq = nextMaxFreq; // throw out the highest and use second highest.
                 $.each(data, function(index, category) {
                     var intensityClassName = "tc-intensity-1";
 

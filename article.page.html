@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="blogApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>davidsandor.com</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/dsTagCloud.css" />
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.11/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.11/angular-sanitize.min.js"></script>
+    <script src="app/js/controllers.js"></script>
+    <script src="js/dsTagCloud.js"></script>
+
+</head>
+<body ng-controller="BlogListCtrl">
+
+    <div class="container">
+        <div class="navbar navbar-fixed-top opaque-dkblue-background">
+            <div class="navbar-inner inner">
+                <h3 class="masthead-brand">David Sandor</h3>
+                <ul class="nav masthead-nav">
+                    <li class="active"><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top: 70px">
+        <div class="row">
+            <div class="col-md-3">
+                <div id="tocifyNav" class="affix"></div>
+
+            </div>
+
+            <div class="col-md-9">
+                <div ng-repeat="article in articles">
+                    <div class="row opaque-dkblue-background-60 left-aligned left-right-bumpout-15">
+                        <h1 class="article-title" ng-bind="article.Title" />
+                        <p class="article-posted-on">posted on: {{article.PublishDate}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<script>
+
+    var tagCloud = $("#tocifyNav").tagcloud();
+
+</script>
+</body>
+</html>
