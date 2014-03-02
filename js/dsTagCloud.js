@@ -13,7 +13,6 @@ $.widget("ds.tagcloud", {
         // build out the initial state / html of the widget
         this.element
             .addClass("tagcloud");
-            //.text("Bitch please: " + this.options.getdataurl);
         this._getData(this.element, this.options);
     },
 

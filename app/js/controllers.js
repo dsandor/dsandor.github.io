@@ -35,7 +35,9 @@ blogApp.factory('Blog', function($http) {
         if (this.busy) return;
         this.busy = true;
 
-        var url = "http://davidsandor.com/blogapi/api/Blog/GetRecentPosts?numberToFetch=5&truncateContent=false&after=" + this.after;
+        var url = "http://davidsandor.com/blogapi/api/Blog/GetRecentPosts?numberToFetch=5&truncateContent=false&after=" + this.after + "&categoryid=" + $.QueryString["viewCategory"];
+        //document.writeln("-=-=] " + url);
+
         $http.get(url).success(function(data) {
             //alert(data);
             var items = data;

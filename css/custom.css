@@ -108,7 +108,7 @@ body {
 .inner-nav-blued-area {
     background-color: rgba(51,51,51,.6);
     height: 40px;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
@@ -126,7 +126,8 @@ body {
 .article-page-nav
 {
     background-color: rgba(36,82,105,1);
-    background-image: url(images/chicago_2880x200.jpg);
+    background-image: url(images/skyline-header.jpg);
+    min-height: 120px;
 }
 
 /*
