@@ -1,0 +1,32 @@
+
+/* Intensities for the Tag Cloud items */
+.tc-intensity-1 {
+    font-size: 8pt;
+    background-color: rgba(51,51,51,.5);
+}
+
+.tc-intensity-2 {
+    font-size: 10pt;
+    background-color: rgba(51,51,51,.6);
+}
+
+.tc-intensity-3 {
+    font-size: 11pt;
+    background-color: rgba(51,51,51,.7);
+}
+
+.tc-intensity-4 {
+    font-size: 12pt;
+    font-weight: bold;
+    background-color: rgba(51,51,51,.75);
+}
+
+.tc-intensity-5 {
+    font-size: 14pt;
+    font-weight: bold;
+    background-color: rgba(51,51,51,.8);
+}
+
+.tc-slight-pad {
+    padding: 3px;
+}

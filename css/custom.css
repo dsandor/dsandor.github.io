@@ -24,8 +24,7 @@ a:hover {
  * Base structure
  */
 
-html,
-body {
+.mainpage {
     background: url(images/chicago.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -42,6 +41,16 @@ body {
     box-shadow: inset 0 0 200px rgba(0,0,0,.5);
 }
 
+.article-body {
+    background-color: #ffffff;
+    box-shadow: none;
+    background: none;
+    -webkit-background-size: none;
+    -moz-background-size: none;
+    -o-background-size: none;
+    background-size: none;
+}
+
 .left-aligned {
     text-align: left;
 }
@@ -51,12 +60,28 @@ body {
     padding-right: 15px;
 }
 
+.article-container {
+    text-shadow: none;
+    color: #000;
+    font-family: 'Rosario', sans-serif;
+}
+
 .article-posted-on{
     font-size: 8pt;
 }
 
 .article-title{
     font-size: 12pt;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    background-color: #333;
+    padding: 10px;
+}
+
+/* */
+.article-container:nth-of-type(1) {
+    margin-top: -10px;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -80,6 +105,14 @@ body {
     padding: 20px;
 }
 
+.inner-nav-blued-area {
+    background-color: rgba(51,51,51,.6);
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .opaque-dkblue-background
 {
     background-color: rgba(36,82,105,.4);
@@ -88,6 +121,12 @@ body {
 .opaque-dkblue-background-60
 {
     background-color: rgba(36,82,105,.6);
+}
+
+.article-page-nav
+{
+    background-color: rgba(36,82,105,1);
+    background-image: url(images/chicago_2880x200.jpg);
 }
 
 /*
@@ -194,3 +233,21 @@ body {
     }
 }
 
+/* C# Code Syntax Highlighting */
+.csharpcode,
+.csharpcode pre { font-size: small; color: black; font-family: consolas, "Courier New", courier, monospace; background-color: #ffffff; /*white-space: pre;*/ }
+.csharpcode pre { margin: 0em; } .csharpcode .rem { color: #008000; } .csharpcode .kwrd { color: #0000ff; } .csharpcode .str { color: #006080; } .csharpcode .op { color: #0000c0; } .csharpcode .preproc { color: #cc6633; } .csharpcode .asp { background-color: #ffff00; } .csharpcode .html { color: #800000; } .csharpcode .attr { color: #ff0000; } .csharpcode .alt { background-color: #f4f4f4; width: 100%; margin: 0em; }
+
+pre {
+    display: block;
+    padding: 1px !important;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.428571429;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333;
+    background-color: #f5f5f5;
+    border: none !important;
+    border-radius: 4px;
+}
