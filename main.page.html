@@ -24,14 +24,14 @@
     <script src="js/dsTagCloud.js"></script>
 
 </head>
-<body ng-controller="BlogListCtrl" class="mainpage">
+<body ng-controller="BlogMainCtrl" class="mainpage">
 
     <div class="container">
         <div class="navbar navbar-fixed-top opaque-dkblue-background">
             <div class="navbar-inner inner">
                 <h3 class="masthead-brand">David Sandor</h3>
                 <ul class="nav masthead-nav">
-                    <li class="active"><a href="#">Blog</a></li>
+                    <li class="active"><a href="article.page.html">Blog</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
@@ -48,7 +48,7 @@
             <div class="col-md-9">
                 <div ng-repeat="article in articles">
                     <div class="row opaque-dkblue-background-60 left-aligned left-right-bumpout-15">
-                        <h1 class="article-title" ng-bind="article.Title" />
+                        <h1 class="article-title" ng-bind="article.Title"></h1>
                         <p class="article-posted-on">posted on: {{article.PublishDate}}</p>
                     </div>
                 </div>

@@ -7,6 +7,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/dsTagCloud.js" afterPath="$PROJECT_DIR$/js/dsTagCloud.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.page.html" afterPath="$PROJECT_DIR$/main.page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dsandor.github.io.iws" />
@@ -42,7 +43,7 @@
       <file leaf-file-name="main.page.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1241">
+            <state line="60" column="0" selection-start="2430" selection-end="2430" vertical-scroll-proportion="-24.76923" vertical-offset="376" max-vertical-offset="1241">
               <folding />
             </state>
           </provider>
@@ -60,7 +61,7 @@
       <file leaf-file-name="article.page.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/article.page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="10" selection-start="2012" selection-end="2012" vertical-scroll-proportion="-12.961538" vertical-offset="394" max-vertical-offset="1360">
+            <state line="33" column="27" selection-start="1597" selection-end="1597" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="1360">
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -82,7 +83,7 @@
       <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="10" selection-start="75476" selection-end="75476" vertical-scroll-proportion="0.7357631" vertical-offset="0" max-vertical-offset="1037">
+            <state line="57" column="7" selection-start="76106" selection-end="76106" vertical-scroll-proportion="1.1036446" vertical-offset="0" max-vertical-offset="1122">
               <folding />
             </state>
           </provider>
@@ -116,6 +117,7 @@
         <option value="$PROJECT_DIR$/js/jquery.querystring.js" />
         <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/article.page.html" />
+        <option value="$PROJECT_DIR$/main.page.html" />
         <option value="$PROJECT_DIR$/app/js/controllers.js" />
       </list>
     </option>
@@ -603,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1241">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.tocify.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="17" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="16881">
@@ -653,16 +648,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/article.page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="10" selection-start="2012" selection-end="2012" vertical-scroll-proportion="-12.961538" vertical-offset="394" max-vertical-offset="1360">
+        <state line="33" column="27" selection-start="1597" selection-end="1597" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="1360">
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="0" selection-start="2430" selection-end="2430" vertical-scroll-proportion="-24.76923" vertical-offset="376" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="10" selection-start="75476" selection-end="75476" vertical-scroll-proportion="0.7357631" vertical-offset="0" max-vertical-offset="1037">
+        <state line="57" column="7" selection-start="76106" selection-end="76106" vertical-scroll-proportion="1.1036446" vertical-offset="0" max-vertical-offset="1122">
           <folding />
         </state>
       </provider>

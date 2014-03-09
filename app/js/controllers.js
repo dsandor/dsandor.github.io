@@ -35,7 +35,7 @@ blogApp.factory('Blog', function($http) {
         if (this.busy) return;
         this.busy = true;
 
-        var url = "http://davidsandor.com/blogapi/api/Blog/GetRecentPosts?numberToFetch=5&truncateContent=false&after=" + this.after + "&categoryid=" + $.QueryString["viewCategory"];
+        var url = "http://davidsandor.com/blogapi/api/Blog/GetRecentPosts?numberToFetch=5&truncateContent=false&after=" + this.after + "&categoryId=" + $.QueryString["viewCategory"];
         //document.writeln("-=-=] " + url);
 
         $http.get(url).success(function(data) {
@@ -52,4 +52,9 @@ blogApp.factory('Blog', function($http) {
     return Blog;
 });
 
+blogApp.controller('BlogMainCtrl', function($scope, $http){
+    $http.get('http://davidsandor.com/blogapi/api/Blog/GetRecentPosts?numberToFetch=5&truncateContent=false').success(function(data) {
+        $scope.articles = data;
+    });
+});
 
