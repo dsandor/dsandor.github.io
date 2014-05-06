@@ -20,6 +20,7 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.11/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.11/angular-sanitize.min.js"></script>
+    <script src="js/ng-infinite-scroll.min.js"></script>
     <script src="app/js/controllers.js"></script>
     <script src="js/dsTagCloud.js"></script>
 
@@ -49,7 +50,8 @@
                 <div ng-repeat="article in articles">
                     <div class="row opaque-dkblue-background-60 left-aligned left-right-bumpout-15">
                         <h1 class="article-title" ng-bind="article.Title"></h1>
-                        <p class="article-posted-on">posted on: {{article.PublishDate}}</p>
+                        <span class="article-posted-on">posted on: <span ng-bind="article.PublishDate" class="article-posted-on" /></span>
+                        <div ng-bind-html="article.Content" />
                     </div>
                 </div>
             </div>
