@@ -26,7 +26,7 @@ blogApp.controller('BlogListCtrl', function($scope, $http, Blog){
 // Blog constructor function to encapsulate HTTP and pagination logic
 blogApp.factory('Blog', function($http) {
     var Blog = function() {
-        this.items = [];
+        this.articles = [];
         this.busy = false;
         this.after = '';
     };
@@ -41,10 +41,12 @@ blogApp.factory('Blog', function($http) {
         $http.get(url).success(function(data) {
             //alert(data);
             var items = data;
+
             for (var i = 0; i < items.length; i++) {
-                this.items.push(data[i]);
+                this.articles.push(data[i]);
+                //document.writeln("-=-=] item: " + this.items[i]);
             }
-            this.after = this.items[this.items.length - 1].Id;
+            this.after = this.articles[this.articles.length - 1].Id;
             this.busy = false;
         }.bind(this));
     };
@@ -53,8 +55,10 @@ blogApp.factory('Blog', function($http) {
 });
 
 blogApp.controller('BlogMainCtrl', function($scope, $http){
+    /*
     $http.get('http://davidsandor.com/blogapi/api/Blog/GetRecentPosts?numberToFetch=5&truncateContent=false').success(function(data) {
         $scope.articles = data;
     });
+    */
 });
 
