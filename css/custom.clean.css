@@ -1,0 +1,90 @@
+/*
+ CSS for clean version of the website.
+ */
+
+@font-face {
+    font-family: FiraSans;
+    font-weight: normal;
+    src: url("../fonts/FiraSans/FiraSans-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: FiraSans;
+    font-weight: bold;
+    src: url("../fonts/FiraSans/FiraSans-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: FiraSans-Italic;
+    font-weight: normal;
+    src: url("../fonts/FiraSans/FiraSans-Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: FiraSans-Italic;
+    font-weight: bold;
+    src: url("../fonts/FiraSans/FiraSans-BoldItalic.otf") format("opentype");
+}
+
+body {
+    font-family: FiraSans;
+    font-weight: normal;
+    font-size: 14pt;
+}
+
+.article-title
+{
+    font-family: FiraSans-Italic;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.article-body
+{
+    font-family: FiraSans;
+    font-weight: normal;
+    font-size: 11pt;
+}
+
+.article-posted-on
+{
+    font-size: 8pt;
+}
+
+.article-list-container
+{
+    margin-top: 60px;
+}
+
+
+/* Intensities for the Tag Cloud items */
+.tc-intensity-1 {
+    font-size: 8pt;
+    background-color: rgba(240, 242, 247, 0.50);
+}
+
+.tc-intensity-2 {
+    font-size: 10pt;
+    background-color: rgba(240, 242, 247,.6);
+}
+
+.tc-intensity-3 {
+    font-size: 11pt;
+    background-color: rgba(240, 242, 247,.7);
+}
+
+.tc-intensity-4 {
+    font-size: 12pt;
+    font-weight: bold;
+    background-color: rgba(240, 242, 247,.75);
+}
+
+.tc-intensity-5 {
+    font-size: 14pt;
+    font-weight: bold;
+    background-color: rgba(240, 242, 247,.8);
+}
+
+.tc-slight-pad {
+    padding: 3px;
+}
