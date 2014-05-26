@@ -20,11 +20,13 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.11/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.11/angular-sanitize.min.js"></script>
+    <script src="js/ng-infinite-scroll.min.js"></script>
     <script src="app/js/controllers.js"></script>
+    <script src="js/jquery.querystring.js"></script>
     <script src="js/dsTagCloud.js"></script>
 
 </head>
-<body ng-controller="BlogMainCtrl" class="mainpage">
+<body ng-controller="BlogListCtrl" class="mainpage">
 
     <div class="container">
         <div class="navbar navbar-fixed-top opaque-dkblue-background">
@@ -38,18 +40,22 @@
         </div>
     </div>
 
-    <div class="container" style="margin-top: 70px">
+    <div class="container" style="margin-top: 70px" >
         <div class="row">
             <div class="col-md-3">
                 <div id="tocifyNav" class="affix"></div>
 
             </div>
 
-            <div class="col-md-9">
-                <div ng-repeat="article in articles">
+            <div class="col-md-9"
+                 infinite-scroll="blog.nextPage()"
+                 infinite-scroll-distance="1"
+                 >
+                <div ng-repeat="article in blog.articles">
                     <div class="row opaque-dkblue-background-60 left-aligned left-right-bumpout-15">
                         <h1 class="article-title" ng-bind="article.Title"></h1>
-                        <p class="article-posted-on">posted on: {{article.PublishDate}}</p>
+                        <span class="article-posted-on">posted on: <span ng-bind="article.PublishDate" class="article-posted-on" /></span>
+                        <div ng-bind-html="article.Content" class="no-text-shadow" />
                     </div>
                 </div>
             </div>
