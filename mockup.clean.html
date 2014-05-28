@@ -6,10 +6,15 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/custom.clean.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <style type="text/css">
+        .headroom {position: fixed;top: 0;left: 0;right: 0;transition: all .2s ease-in-out;}
+        .headroom--unpinned {top: -100px;}
+        .headroom--pinned {top: 0;}
+    </style>
 </head>
 <body ng-controller="BlogListCtrl">
 
-<headroom>
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
@@ -34,7 +39,6 @@
         </div><!--/.nav-collapse -->
     </div>
 </div>
-</headroom>
 
 <div class="container article-list-container">
 
@@ -70,7 +74,20 @@
 <script src="js/ng-infinite-scroll.min.js"></script>
 <script src="app/js/controllers.js"></script>
 <script src="js/headroom.min.js"></script>
-<script src="js/angular.headroom.js"></script>
+<script  type="text/javascript"  src="https://rawgithub.com/WickyNilliams/headroom.js/master/src/jQuery.headroom.js"></script>
+<script type="text/javascript">
+    $(".navbar-fixed-top").headroom({
+        "tolerance": 5,
+        "offset": 205,
+        "classes": {
+            "initial": "animated",
+            "pinned": "flipInX",
+            "unpinned": "flipOutX",
+            "top": "headroom--top",
+            "notTop": "headroom--not-top"
+        }
+    });
+</script>
 
 <script>
     // Build out the tag cloud.
